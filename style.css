@@ -1,0 +1,63 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+   height: 10vh; 
+   width: 100vw;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   background-color: aliceblue;
+}
+
+#head_el {
+    height: 90%;
+    width: 20%;
+    border: solid black 2px;
+    
+}
+
+.uinput {
+    height: 30vh;
+    background-color: beige;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    height: 20vh;
+    width: 20vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    background-color: white;
+}
+
+.score {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.score_output_window {
+    height: 30vh;
+    width: 50vw;
+    border: solid black 2px;
+    margin-top: 10vh;
+
+
+}
+
+.button:hover {
+    border: yellow 2px solid;
+}
+
+.onclick {
+    background-color: yellow;
+}
